@@ -1,0 +1,73 @@
+
+body{
+    color: rgb(12, 0, 185);
+}
+.boder-bottom {
+    border-bottom: 1px solid #ccc ;
+
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.avatar {
+    width: 325;
+    height: 327px;
+    padding: 20px;
+}
+.header__info--app {
+    list-style: square;
+}
+.header__info--app__item {
+    font-size: 20px;
+
+}
+.header__info--app__item-link {
+    color: rgb(15, 0, 223);
+
+}
+article {
+    margin: 0 20%;
+}
+.introduce {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc ;
+    padding: 8px 0;
+}
+.study {
+    padding: 0 0;
+}
+.study__item {
+    padding: 8px 0;
+}
+.study__list {
+    padding-left: 48px;
+}
+.experience__form1 {
+    padding: 0;
+    display: flex;
+    gap: 12px;
+
+}
+.skill__form {
+    width: 200px;
+    display: flex;
+    list-style: none;
+}
+.skill__form-list {
+    
+
+}
+.skill__form-list--item {
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+
+
+}
+.skill__form-list--item-star {
+    margin-left: 22px;
+}
+.fa-solid {
+    color: pink;
+}

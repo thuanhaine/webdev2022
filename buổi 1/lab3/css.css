@@ -1,0 +1,40 @@
+.content {
+    width: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px 10px;
+    color: #333;
+    position: relative;
+    margin:auto;
+    height: 490px;
+}
+.title {
+    color: #0056e0;
+    border-bottom: 1px solid #ccc;
+    padding: 0 10px 7px 0;
+}
+.title::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.content__list--item {
+    padding: 6px 12px;
+    font-size: 18px;
+}
+.content__list--item-link:hover {
+    cursor: pointer;
+    color: #006ca1;
+}
+.content__list--item-link {
+    color: #0088cc;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.content__footer {
+    float: right;
+}
