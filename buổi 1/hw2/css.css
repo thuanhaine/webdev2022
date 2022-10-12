@@ -1,167 +1,42 @@
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+
 }
-html {
-    font-size: 18px;
-    margin-top: 32px;
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-top: 1px solid #687291;
 }
-ul {
-    list-style: none;
-}
-.text--s {
-    font-size: 14px;
-}
-.boder--top {
-    border-top: 1px solid #ccc;
-}
-.title--color {
-    color: #22a3a0;
+.style1 {
+    background-color: #dfe1e7;
     text-align: center;
 
 }
-
-
- /* HEADER  */
- /* HEADER  */
-header {
-    margin:0 25%;
-
-    flex: 1;
+.style2 {
+    background-color: #eeeff2;
     text-align: center;
-    margin: 32px 16px 32px 32px;
-    margin:0 25%;
-}
-.title {
-    margin-bottom: 12px;
-}
-.header__profile {
-    margin-bottom: 32px;
-}
-.introduction {
-    padding-top: 16px;
-    display: flex;
-    justify-content: center;
-}
-.about {
-    margin-top: 32px;
-    width: calc(100% /3);
-}
-.avatar {
-    padding:12px;
-}
-.details {
-    margin-top: 32px;
-    width: calc(100% /3);
-
-}
-.content {
-    text-align: left;
-    margin: 16px 8px;
-}
-/* ARTICLE  */
-/* ARTICLE  */
-article {
-    flex: 1;
-    background-color: #f3efe0;
-    margin: 32px 25%;
-    padding: 16px;
-}
-.educations {
-    padding-top: 32px;
     
 }
-.educations--title {
-    color: #22a3a0;
-
-}
-.educations__info {
-    padding-top: 32px;
-    display: flex;
-}
-.educations__info--time {
-    min-width: 40%;
-}
-.content-detail {
-    margin: 16px 0;
+.active1 {
+    background-color: #687291;
+    border: 4px solid black;
+    line-height: 100px;
 }
 
 
-/* MORE  */
-/* MORE  */
-/* MORE  */
-
-.more {
-    margin:0 25%;
+.box2 {
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin: 32px 10px 0 0;
+    padding-left: 10px;
 }
-
-.abilities__skills {
-    padding: 32px 0;
-    color: #22a3a0;
-    
-}
-.skill__form {
-    display: flex;
-    justify-content:space-between;
-    gap: 32px;
-}
-.skills__list {
-    width: 100%;
-    padding: 0 16px;
-}
-.skills__item {
-    margin: 8px 0;
-    display: flex;
-    justify-content: space-between;
-}
-.skills__item:hover {
-    background-color: rgba(204, 204, 204, 0.459);
-}
- /* RATING  */
- /* RATING  */
- /* RATING  */
-
- .fa-regular {
-    opacity: 0.2;
- }
- .fa-regular:hover {
+.box2:hover {
+    background-color: yellow;
+    color: goldenrod;
     cursor: pointer;
- }
-.rating--active {
-    color:#0cd1d1;
-    opacity: 1;
-}
-
-/* FOOTER SKILL  */
-/* FOOTER SKILL  */
-/* FOOTER SKILL  */
-
-.skill__footer{
-    text-align: center;
-    margin: 32px 0 ;
-}
-.skill__footer--span {
-    opacity: .6;
-}
-.skill__footer--btn {
-    display: block;
-    margin: 16px auto;
-    font-size: 18px;
-    padding: 6px;
-    color: #fff;
-    background-color:#22a3a0;
-    border: none;
-    border-radius: 5px;
-}
-.skill__footer--btn:hover {
-    cursor: pointer;
-    opacity: .8;
-}
-
-
-footer {
-    margin: 32px auto 0;
-    height: 16px;
-    width: 95%;
-    background-color: aquamarine;
 }

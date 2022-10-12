@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.mr-16px {
+    margin: 16px;
+}
+body {
+    padding: 8px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.img__advertising {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 8px;
+    height: 65px;
+}
+.img__alogo {
+    height: 54px;
+    width: auto;
+}
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -135px;
+}
+.header__nav-item {
+    min-width: 150px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.header__nav-item__link:hover {
+    color: red;
+}
+.header__nav-item__link {
+    color: #000;
+    font-size: 18px;
+
+}
+.btn-subscribe {
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+}
+.btn-subscribe:hover {
+
+
+    background-color: rgb(35, 132, 197);
+
+}
+.menu {
+    display: flex;
+    background-color: rgb(35, 132, 197);
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu-item {
+    min-width: 120px;
+    margin: 0 16px;
+}
+.menu-item__link {
+    font-size: 22px;
+    color: #ccc;
+    font-weight: 700;
+}
+.menu-item:hover .menu-item__link {
+    color: #fff;
+}
+ /* article  */
+ /* article  */
+ /* article  */
+ /* article  */
+ article {
+    display: block;
+ }
+
+ /* content1 */
+ /* content1 */
+ /* content1 */
+ /* content1 */
+ .content1__title {
+    font-size: 28px;
+    margin-top: 32px;
+ }
+ .content1__time {
+    margin: 16px 4px;
+
+ }
+ .content1__text {
+    margin: 22px 0;
+    font-size: 22px;
+ }
+ .content1__text-item {
+    margin: 16px 0;
+ }
+ .content1__text-list {
+    margin: 0 32px;
+    list-style: disc;
+ }
+
+ /* content2 */
+ /* content2 */
+ /* content2 */
+ /* content2 */
+ /* content2 */
+
+ .content2__list {
+    margin: 0 32px;
+ }
+ .content2__list-item {
+    margin: 32px 0;
+ }
+
+ /* FOOTER  */
+ /* FOOTER  */
+ /* FOOTER  */
+ /* FOOTER  */
+ footer {
+    min-height: 300px;
+ }
+ .footer-job__list {
+    display: flex;
+ }
+ .footer-job__list-item {
+    margin: 0 32px;
+ }
+ .footer-job__list-item--title {
+    font-size: 20px;
+ }
+ .footer-end {
+    margin: 32px 32px;
+ }
+ .footer-text-more {
+    margin: 16px 52px;
+ }

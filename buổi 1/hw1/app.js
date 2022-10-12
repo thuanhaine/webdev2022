@@ -1,8 +1,6 @@
-const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
 const ratings = $$(".fa-regular.fa-square")
-
 
 
 ratings.forEach((rating, index) => {
@@ -33,11 +31,7 @@ ratings.forEach((rating, index) => {
                  break;
             case 8: handleDisActive(ratings, index,44);
                  break;
-            
-
-
              default: ;
-
         }
         }
     else
