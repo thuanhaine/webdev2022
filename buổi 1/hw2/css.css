@@ -34,6 +34,7 @@
     border-left: 10px dotted #D0D0FF;
     margin: 32px 10px 0 0;
     padding-left: 10px;
+    white-space: nowrap;
 }
 .box2:hover {
     background-color: yellow;
